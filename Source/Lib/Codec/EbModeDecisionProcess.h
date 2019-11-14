@@ -31,7 +31,7 @@ extern "C" {
 
 #define MODE_DECISION_CANDIDATE_BUFFER_MAX_COUNT        34
 
-#define MAX_FULL_LOOP_CANIDATES_PER_DEPTH                7 // 4 NFL + 3 MPM
+#define MAX_FULL_LOOP_CANIDATES_PER_DEPTH                8 // 4 NFL + 3 MPM + 1 for temporary data
 
 #define DEPTH_ONE_STEP   21
 #define DEPTH_TWO_STEP    5
